@@ -7,12 +7,12 @@ WORKDIR /usr/src/movie-rating-app
 RUN apt update && \
     apt install -y vim git && \
     pip install --upgrade pip && \
-    apt clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Copiando os arquivos do diretório atual do host para o diretório /install do container.
 ADD ./ /install
 
-# Instalando dependências da aplicação.
+# Instalando dependências.
 RUN pip install --no-cache-dir -r /install/requirements.txt
 
 # Executando o bash.
