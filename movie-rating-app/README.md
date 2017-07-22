@@ -1,4 +1,6 @@
-> O arquivo Dockerfile deste diretório irá gerar o ambiente de desenvolvimento da aplicação movie-rating-app.  
+### Repositório do projeto
+
+O arquivo Dockerfile deste diretório irá gerar o ambiente de desenvolvimento da aplicação movie-rating-app que pode ser encontrada em https://github.com/marcoswebermw/movie-rating-app.  
    
   
 ### Comando para gerar a imagem
