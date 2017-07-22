@@ -14,3 +14,14 @@ docker build -t mw/movie-rating-app .
 ```sh
 docker run --rm -it --name app -v /home/$USER/dev/movie-rating-app:/usr/src/movie-rating-app -e USER=$USER  mw/movie-rating-app bas
 ```
+
+### Executando script adicional
+
+Depois que o container iniciar use o seguinte comando para clonar o repositório do projeto:
+
+```sh
+chmod +x /install/install.sh
+
+/install/./install.sh
+
+```
