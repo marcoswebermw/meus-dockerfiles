@@ -1,5 +1,5 @@
 # meus-dockerfiles
-Repositório que mantém arquivos DOCKERFILE para criação e configuração de ambientes para meus projetos.
+Repositório que mantém arquivos `Dockerfile` para criação e configuração de ambientes para meus projetos.
 
 
 * Branch de cada projeto com seu Dockerfile:
