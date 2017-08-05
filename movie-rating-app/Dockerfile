@@ -1,7 +1,7 @@
 FROM python:3.5
 
 # Definindo diretório de trabalho padrão.
-WORKDIR /usr/src/movie-rating-app
+WORKDIR /usr/src/app
 
 # Instalando dependências e fazendo algumas configurações.
 RUN apt update && apt install -y \
