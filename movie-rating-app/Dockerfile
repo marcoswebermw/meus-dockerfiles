@@ -17,5 +17,11 @@ ADD ./ /install
 # Instalando dependências.
 RUN pip install --no-cache-dir -r /install/requirements.txt
 
-# Executando o bash.
+# Dando permissão de execução para o script de instalação de pacotes adicionais. 
+RUN chmod +x /install/install.sh
+
+# Executando o script inicial.
+RUN /install/./install.sh
+
+# Executando o bash na inicialização do container.
 CMD [ "bash" ]
