@@ -17,6 +17,7 @@ docker run --rm -it \
 -v /home/$USER/dev/app:/usr/src/app \  
 -e "NODE_ENV=development" \
 -m "300M" --memory-swap "1G" \
+-p 80:8888
 mw/app bash
 ```
 
