@@ -15,3 +15,15 @@ Repositório que mantém arquivos `Dockerfile` para criação e configuração d
 [ambiente-python](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-python) - Ambiente Genérico para criação de aplicações python.
 
 [movie-rating-app](https://github.com/marcoswebermw/meus-dockerfiles/tree/movie-rating-app) - Projeto pessoal para armazenar notas de filmes que assisto.
+
+
+
+## Abaixo como clonar a branch necessária.
+
+* Primeiro clone a branch master: `https://github.com/marcoswebermw/meus-dockerfiles.git`.
+
+* Exemplo de como baixar um ambiente: `git checkout -t origin/ambiente-teste` ou `git checkout -b ambiente-teste origin/ambiente-teste`.
+
+* Caso necessário enviar alguma alteração para o servidor proceda da seguinte forma: `git push origin ambiente-teste`.
+
+> Exemplo para remoção do ambiente remoto: `git push origin :ambiente-teste`.
