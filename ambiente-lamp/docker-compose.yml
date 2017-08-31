@@ -1,0 +1,21 @@
+php:
+  build: .
+  dockerfile: ./Dockerfile
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - /home/$USER/dev/app/www:/var/www/html
+  links:
+    - db_mysql
+
+db_mysql:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: minha_senha_root
+    MYSQL_DATABASE: bd_mysql
+    MYSQL_USER: usuario_mysql
+    MYSQL_PASSWORD: minha_senha
+
