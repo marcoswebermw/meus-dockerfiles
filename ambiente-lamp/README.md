@@ -9,10 +9,10 @@
 
 `docker-compose up -d`
 
-> -d de daemon. Para rodar em segundo plano
-> Se o docker-compose não estiver instalado use `sudo apt install docker-compose`.
-> Para verificar os serviços rodando use: `docker ps`.
-> Para parar os serviços use: `docker-compose stop`.
+> -d de daemon. Para rodar em segundo plano  
+> Se o docker-compose não estiver instalado use `sudo apt install docker-compose`.  
+> Para verificar os serviços rodando use: `docker ps`.  
+> Para parar os serviços use: `docker-compose stop`.  
 
 
 ### Executar comandos dentro do container do mysql
