@@ -10,9 +10,9 @@ Repositório que mantém arquivos `Dockerfile` para criação e configuração d
 
 [ambiente-java](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-java) - Ambiente Genérico para criação de aplicações com o java.
 
-[ambiente-lamp](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-lamp) - Ambiente Genérico para criação de aplicações com o LAMP(Linux-Apache-MySql-Php7).
+[ambiente-lamp](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-lamp) - Ambiente Genérico para criação de aplicações com o LAMP( Linux - Apache - MySql - Php7 ).
 
-[ambiente-lemp](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-lemp) - Ambiente Genérico para criação de aplicações com o LEMP(Linux-Nginx-MariaDB-Php7).
+[ambiente-lemp](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-lemp) - Ambiente Genérico para criação de aplicações com o LEMP( Linux - Nginx - MariaDB - Php7-fpm ).
 
 [ambiente-node.js](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-nodejs) - Ambiente Genérico para criação de aplicações na plataforma node.js.
 
