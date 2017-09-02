@@ -7,4 +7,8 @@
 * MariaDB
 * PhpMyAdmin
 
+#### Libs de conexão com o SGBD instaladas:
 
+* mysqli 
+* pdo_mysql
+* pdo_pgsql
