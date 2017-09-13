@@ -7,17 +7,17 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./code:/code
-      - ./site.conf:/etc/nginx/conf.d/default.conf
+      - ./src/:/code
+      - ./services/web/site.conf:/etc/nginx/conf.d/default.conf
     networks:
       - code-network
 
   php:
     build:
-      context: ./php-fpm
+      context: ./services/php-fpm
     container_name: lemp_php
     volumes:
-      - ./code:/code
+      - ./src/:/code
     networks:
       - code-network
 
@@ -28,12 +28,12 @@ services:
     ports:
       - '3306:3306'
     volumes:
-      - ./db-data:/var/lib/mysql
+      - ./services/db-data:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: minha_senha_root
+      MYSQL_ROOT_PASSWORD: senha_root
       MYSQL_DATABASE: bd_mariadb
-      MYSQL_USER: usuario_mariadb
-      MYSQL_PASSWORD: minha_senha
+      MYSQL_USER: usuario
+      MYSQL_PASSWORD: senha
     networks:
       - code-network
 
@@ -44,13 +44,13 @@ services:
     ports:
       - '8001:80'
     environment:
-      MYSQL_ROOT_PASSWORD: minha_senha_root
-      MYSQL_USER: usuario_mariadb
-      MYSQL_PASSWORD: minha_senha
+      MYSQL_ROOT_PASSWORD: senha_root
+      MYSQL_USER: usuario
+      MYSQL_PASSWORD: senha
 
       PMA_HOST: mariadb
-      PMA_USER: usuario_mariadb
-      PMA_PASSWORD: minha_senha
+      PMA_USER: usuario
+      PMA_PASSWORD: senha
     networks:
       - code-network
 
