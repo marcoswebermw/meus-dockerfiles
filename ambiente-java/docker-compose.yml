@@ -1,0 +1,28 @@
+version: '2'
+services:
+
+  openjdk8:
+    build:
+      context: ./services/openjdk-8
+    container_name: openjdk8
+    volumes:
+      - ./src/:/code
+    networks:
+      - rede-java
+
+
+  openjdk9:
+    build:
+      context: ./services/openjdk-9
+    container_name: openjdk9
+    volumes:
+      - ./src/:/code
+    networks:
+      - rede-java
+
+
+
+ 
+networks:
+  rede-java:
+    driver: bridge
