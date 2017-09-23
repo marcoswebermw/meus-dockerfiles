@@ -8,6 +8,8 @@ Repositório que mantém arquivos `Dockerfile` para criação e configuração d
 
 [ambiente-flask](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-flask) - Ambiente Genérico para criação de aplicações com o framework flask.
 
+[ambiente-haskell](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-haskell) - Ambiente Genérico para criação de aplicações com o Haskell.
+
 [ambiente-java](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-java) - Ambiente Genérico para criação de aplicações com o java.
 
 [ambiente-lamp](https://github.com/marcoswebermw/meus-dockerfiles/tree/ambiente-lamp) - Ambiente Genérico para criação de aplicações com o LAMP( Linux - Apache - MySql - Php7 ).
