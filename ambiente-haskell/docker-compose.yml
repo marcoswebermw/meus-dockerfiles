@@ -1,0 +1,14 @@
+version: '2'
+services:
+   haskell:
+     build:
+       context: ./services/haskell
+     container_name: haskell
+     volumes:
+       - ./src/:/code
+     networks:
+       - rede-haskell
+
+networks:
+  rede-haskell:
+    driver: bridge
