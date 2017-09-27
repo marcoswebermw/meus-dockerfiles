@@ -2,8 +2,8 @@
 
     // Credenciais.
     $servername = "mariadb";
-    $username = "usuario_mariadb";
-    $password = "minha_senha";
+    $username = "usuario";
+    $password = "senha";
     $dbname = "bd_mariadb";
 
     // --------------------------------------------------------------
