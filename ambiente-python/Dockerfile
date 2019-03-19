@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:latest
 
 # Definindo diretório de trabalho padrão.
 WORKDIR /usr/src/app
